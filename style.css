@@ -22,9 +22,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1f1e1e;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'IBM Plex Mono', monospace;
     color: #d6d6d6;
-    font-weight: 700;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
