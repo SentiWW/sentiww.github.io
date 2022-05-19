@@ -157,13 +157,15 @@ footer>ul>li {
     display: inline-block;
 }
 
-footer>ul>li>a>i {
+footer>ul>li>a>svg {
+    height: 1.75rem;
+    width: 1.75rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1.75rem;
-    color: #f64740;
+    fill: #f64740;
 }
 
-footer>ul>li>a>i:hover {
-    color: #9d3532;
+footer>ul>li>a>svg:hover {
+    fill: #9d3532;
 }
