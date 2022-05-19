@@ -1,0 +1,170 @@
+/*
+
+    Why is the CSS like this?
+        I really don't like classes/ids. No other reason. 
+        I know it makes no sense. I just don't want to use them
+        as this is a personal project and I don't have to make it
+        readable to others.
+
+
+    Color palette
+        Background: 1f1e1e
+        Text:       d6d6d6
+
+*/
+
+
+/*
+    Other
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1e1e;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d6d6d6;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a,
+.a:active,
+a:visited {
+    color: #f64740;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #9d3532;
+    text-decoration: inherit;
+}
+
+
+/*
+    Header
+*/
+
+header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+nav {
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 1.2rem;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 3.5rem;
+}
+
+nav>h1 {
+    margin: 0;
+    padding-bottom: 1.3rem;
+}
+
+nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline;
+    color: #f64740;
+}
+
+
+/*
+    Main
+*/
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+main>article {
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    border-radius: .625rem;
+}
+
+main>article:first-child,
+main>article:nth-child(3) {
+    border-left: 3px solid #f64740;
+}
+
+main>article:nth-child(2),
+main>article:nth-child(4) {
+    border-right: 3px solid #f64740;
+}
+
+main>article>h2 {
+    text-align: center;
+    padding-top: 0;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+main>article>h4 {
+    text-align: center;
+    line-height: 0.2rem;
+    padding: 0;
+}
+
+main>article>p {
+    margin: 0;
+    padding: 0;
+    text-indent: 3rem;
+}
+
+
+/*
+    Footer
+*/
+
+footer {
+    max-width: 60rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+footer>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+footer>ul>li {
+    display: inline-block;
+}
+
+footer>ul>li>a>i {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.75rem;
+    color: #f64740;
+}
+
+footer>ul>li>a>i:hover {
+    color: #9d3532;
+}
